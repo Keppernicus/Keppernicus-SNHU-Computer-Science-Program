@@ -1,9 +1,12 @@
+var fs = require('fs');
+var trips = JSON.parse(fs.readFileSync('./data/trips.json', 'utf8'));
+
 exports.index = (req, res) => {
   res.render('index', { title: 'Travlr Getaways' });
 };
 
 exports.travel = (req, res) => {
-  res.render('travel', { title: 'Travel - Travlr Getaways' });
+  res.render('travel', { title: 'Travel - Travlr Getaways', trips});
 };
 
 exports.about = (req, res) => {
