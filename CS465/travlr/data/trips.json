@@ -28,5 +28,35 @@
     "perPerson": "1499.00",
     "image": "reef3.jpg",
     "description": "Claire's Reef - Donec sed felis risus. Nulla facilisi. Donec a orci tellus, et auctor odio. Fusce ac orci nibh, quis semper arcu. Cras orci neque, euismod et accumsan ac, sagittis molestie lorem. In hac habitasse platea dictumst. Integer purus justo, egestas eu consectetur eu, cursus in tortor."
+  },
+  {
+    "code": "KAYK210809",
+    "name": "Kayak Cove",
+    "length": "3 nights / 4 days",
+    "start": "2021-08-09T08:00:00Z",
+    "resort": "Harbor Point, 3 stars",
+    "perPerson": "649.00",
+    "image": "kayak.jpg",
+    "description": "Kayak Cove - Praesent id sapien nec nisl luctus vestibulum. Guided paddling excursions leave twice daily from the resort dock, with sheltered water suitable for first-time paddlers and open runs along the headland for the more experienced. Includes equipment, instruction, and a shore lunch."
+  },
+  {
+    "code": "SEAS211018",
+    "name": "Sea Sound Retreat",
+    "length": "6 nights / 7 days",
+    "start": "2021-10-18T08:00:00Z",
+    "resort": "Windward Reach, 4 stars",
+    "perPerson": "1349.00",
+    "image": "sea-sound.jpg",
+    "description": "Sea Sound Retreat - Quisque venenatis dolor eget lacus tincidunt tempus. A quieter package built around the north sound, with daily sunrise sails, an oceanfront spa, and evening meals served on the terrace. Well suited to travelers looking for rest rather than a full activity schedule."
+  },
+  {
+    "code": "DIVS211206",
+    "name": "Deep Dive Expedition",
+    "length": "8 nights / 9 days",
+    "start": "2021-12-06T08:00:00Z",
+    "resort": "Trident Bay, 5 stars",
+    "perPerson": "1899.00",
+    "image": "dive-site.png",
+    "description": "Deep Dive Expedition - Nam pulvinar orci ut nisi faucibus, at ullamcorper est varius. Certification-track diving across nine charted sites, including two wreck dives and a night dive on the outer wall. Open-water certification or higher required; gear rental and boat transfers are included in the package price."
   }
 ]
