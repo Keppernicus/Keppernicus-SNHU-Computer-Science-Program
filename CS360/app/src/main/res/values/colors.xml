@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand color - used for headers, main buttons, and grid header -->
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#42A5F5</color>
+
+    <!-- Secondary - used for outlined/secondary buttons -->
+    <color name="secondary">#E3F2FD</color>
+
+    <!-- Backgrounds and surfaces -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- Utility colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="error">#D32F2F</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="row_alternate">#F5F5F5</color>
+    <color name="warning_low_stock">#FFF3E0</color>
+</resources>

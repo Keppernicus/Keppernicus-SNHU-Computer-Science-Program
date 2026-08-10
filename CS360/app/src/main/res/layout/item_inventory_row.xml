@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/row_background">
+
+    <!-- Item name longest horizontally since name lenghts vary -->
+    <TextView
+        android:id="@+id/textViewItemName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Sample Item"
+        android:textSize="14sp"
+        android:textColor="@color/text_primary" />
+
+    <!-- Quantity is centered in its column, shorter text, less space -->
+    <TextView
+        android:id="@+id/textViewItemQuantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="10"
+        android:textSize="14sp"
+        android:textColor="@color/text_primary"
+        android:gravity="center" />
+
+    <!-- Delete button per row (assignment requirement).
+         trash icon imagebutton is simple and compact.
+         contentDescription is for accessibility - screen readers
+         will read "Delete item" when focused on this button. -->
+    <ImageButton
+        android:id="@+id/buttonDeleteItem"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_delete"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Delete item"
+        android:padding="12dp" />
+
+</LinearLayout>
