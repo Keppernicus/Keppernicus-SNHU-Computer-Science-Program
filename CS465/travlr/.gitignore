@@ -1,2 +1,4 @@
 node_modules/
 .env
+app_admin/dist/
+app_admin/.angular/
