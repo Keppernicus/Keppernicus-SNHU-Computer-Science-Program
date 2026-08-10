@@ -1,3 +1,5 @@
+if (!globalThis.crypto) globalThis.crypto = require('crypto').webcrypto;
+
 const mongoose = require('mongoose');
 const readLine = require('readline');
 
