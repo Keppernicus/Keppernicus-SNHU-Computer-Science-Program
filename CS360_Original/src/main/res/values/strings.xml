@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inventorted</string>
+    <string name="login_title">Inventorted</string>
+    <string name="login_subtitle">Inventory Tracking Made Simple</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="button_login">Log In</string>
+    <string name="button_create_account">Create New Account</string>
+    <string name="header_inventory">Inventory</string>
+    <string name="hint_item_name">Item Name</string>
+    <string name="hint_item_quantity">Quantity</string>
+    <string name="button_add_item">Add to Inventory</string>
+    <string name="label_item_name">Item Name</string>
+    <string name="label_quantity">Qty</string>
+    <string name="empty_state">No items yet. Add your first item above.</string>
+    <string name="sms_section_title">Notifications</string>
+    <string name="sms_description">Enable SMS alerts to get notified when any item reaches zero stock.</string>
+    <string name="sms_status_disabled">SMS Notifications: Not Enabled</string>
+    <string name="sms_status_enabled">SMS Notifications: Enabled</string>
+    <string name="button_enable_sms">Enable SMS Notifications</string>
+    <string name="delete_item">Delete item</string>
+    <string name="add_new_item">Add New Item</string>
+    <string name="error_empty_fields">Please enter both username and password</string>
+    <string name="error_invalid_login">Invalid username or password</string>
+</resources>
