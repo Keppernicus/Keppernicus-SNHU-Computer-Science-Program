@@ -133,15 +133,15 @@ four unit test classes that did not exist before.
 
 ## Enhancements
 
-### [One — Software Design and Engineering](enhancement-one-software-design.html)
+### [One: Software Design and Engineering](enhancement-one-software-design.html)
 Refactored a monolithic Activity into MVVM with a repository layer, moved database work
 off the main thread, and hardened input validation.
 
-### [Two — Algorithms and Data Structures](enhancement-two-algorithms.html)
+### [Two: Algorithms and Data Structures](enhancement-two-algorithms.html)
 Replaced a full table reload on every change with an in memory index, added search and
 three sort modes, and deliberately left the adapter's full redraw in place as out of scope.
 
-### [Three — Databases](enhancement-three-databases.html)
+### [Three: Databases](enhancement-three-databases.html)
 Migrated to Room, replaced plaintext credential storage with salted PBKDF2 hashing, and
 removed the destructive upgrade path.
 
@@ -160,13 +160,14 @@ it did, where it was weak, and what I planned to change and why.
 
 This portfolio is assessed against five course outcomes. 
 
-| Course Outcome | Evidence |
+| Course Outcome | Evidence |  
 |---|---|
 | **1.** Collaborative environments enabling diverse audiences to support decision making | [Code Review](code-review.html); intent explaining comments throughout the enhanced source; the stakeholder framing in each narrative |
 | **2.** Professional quality oral, written, and visual communication | [Code Review](code-review.html) video; this site's navigation and structure; the three narratives |
 | **3.** Design and evaluate computing solutions using algorithmic principles, managing trade-offs | [Enhancement Two](enhancement-two-algorithms.html) indexing strategy with Big-O analysis and documented trade offs |
 | **4.** Well founded and innovative techniques, skills, and tools | [Enhancement One](enhancement-one-software-design.html) - MVVM, repository pattern, lifecycle aware components; [Enhancement Three](enhancement-three-databases.html) - Room, plus the four unit test classes demonstrating iterative testing |
 | **5.** Security mindset anticipating adversarial exploits | [Enhancement Three](enhancement-three-databases.html) — PBKDF2 with per-user salt, constant-time comparison, no destructive fallback; input validation in [Enhancement One](enhancement-one-software-design.html) |
+
 ---
 
 <sub>Chris Koepp · Southern New Hampshire University · B.S. Computer Science ·
