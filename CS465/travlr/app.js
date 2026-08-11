@@ -8,6 +8,11 @@ var cors = require('cors');
 
 // Bring in the db connection
 require('./app_api/models/db');
+require('dotenv').config();
+
+var passport = require('passport');
+require('./app_api/config/passport');
+
 
 if (!globalThis.crypto) globalThis.crypto = require('crypto').webcrypto;
 var indexRouter = require('./app_server/routes/index');
@@ -28,6 +33,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
+
+// initialize passport before the routes that use it
+app.use(passport.initialize());
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
