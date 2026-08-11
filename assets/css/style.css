@@ -1,0 +1,26 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+}
+
+table th,
+table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.5em 0.8em;
+  color: #1a1a1a;
+}
+
+table th {
+  font-weight: 600;
+}
+
+table td a {
+  color: #0b4f7a;
+}
